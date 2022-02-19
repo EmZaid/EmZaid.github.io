@@ -81,6 +81,8 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
+
+
 # Aux links for the upper right navigation
 aux_links:
   "My GitHub":
