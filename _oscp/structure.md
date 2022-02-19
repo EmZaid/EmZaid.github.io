@@ -1,6 +1,6 @@
 ---
 title: "Structure"
-permalink: /OSCP/structure/
+permalink: /oscp/structure/
 excerpt: "Structure"
 last_modified_at: 
 ---

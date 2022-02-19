@@ -1,5 +1,5 @@
 ---
 title: "Secrets"
-permalink: /OSCP/secrets/
+permalink: /oscp/secrets/
 excerpt: "LTNM and Kerbros"
 ---

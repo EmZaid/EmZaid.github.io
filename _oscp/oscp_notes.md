@@ -1,6 +1,6 @@
 ---
 title: "OSCP Notes"
-permalink: /OSCP/oscp_notes/
+permalink: /oscp/oscp_notes/
 excerpt: "Lateral and vertical movements in AD"
 last_modified_at: 
 ---

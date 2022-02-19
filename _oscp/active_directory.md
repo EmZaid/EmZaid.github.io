@@ -1,6 +1,6 @@
 ---
 title: "Active Directory for OSCP"
-permalink: /OSCP/active_directory/
+permalink: /oscp/active_directory/
 excerpt: "Lateral and vertical movements in AD"
 last_modified_at: 
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Comands"
-permalink: /OSCP/ps_scripts/
+permalink: /oscp/ps_scripts/
 excerpt: "PS scripts for enumeration and creation of AD objects"
 last_modified_at: 
 toc: true
