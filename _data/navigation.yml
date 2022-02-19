@@ -34,7 +34,7 @@ main:
 # oscp links
 
 oscp:
-  - title: Active Directory
+  - title: oscp notes
     children:
       - title: "Overview"
         url: /oscp/active_directory/
