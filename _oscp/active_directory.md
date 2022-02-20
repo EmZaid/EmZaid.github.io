@@ -245,10 +245,10 @@ POKEMON$
 
 
 
-### Secrets
+# Secrets
 
 
-#### NTLM Hash's
+## NTLM Hash's
 This is again the NT (or LM) Hash or Kerberos keys.
 
 LM hashes are week and not used since 2008
@@ -264,7 +264,7 @@ In case of LM is not being used, its value will be `aad3b435b51404eeaad3b435b514
 Hash's are not passwords exactly but can be cracked or used in attacks like [[Pass the Hash]]
 
 
-#### Kerberos
+## Kerberos
 
 The Kerberos keys can be used to ask for a Kerberos ticket that represents the user in Kerberos authentication. There are several different keys, and different ones are used for different Kerberos encryption support:
 
