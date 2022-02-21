@@ -44,6 +44,11 @@ oscp:
         url: /oscp/ps_scripts/
       - title: "secrets"
         url: /oscp/secrets/
+  - title: oscp notes
+    children:
+      - title: "CLI cheat sheets"
+        url: /oscp/reverse_shell/
+  
 
 
 
