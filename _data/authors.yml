@@ -20,7 +20,7 @@
   bio         : "this is the bio?"
   avatar      : "/assets/images/em_avatar.jpg"
   links:
-    - lable: "Gender"
+    - lable: "genderless"
       icon: "fa-solid fa-genderless"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

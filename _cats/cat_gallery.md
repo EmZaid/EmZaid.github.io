@@ -1,6 +1,5 @@
 ---
 title: "Cats that spent some time with me"
-layout: single
 permalink: /cats/cat_gallery/
 # tags:
 #     - Cats

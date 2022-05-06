@@ -287,9 +287,9 @@ collections:
   python:
     output: true
     permalink: /coding/:collection/:path/
-  # cats:
-  #   output: true
-  #   permalink: /:collection/:path/
+  cats:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -345,11 +345,11 @@ defaults:
       share: false
       sidebar:
         nav: "coding"
-  # # _cats
-  # - scope:
-  #     path: "_cats"
-  #     type: cats
-  #   values:
-  #     layout: single
-  #     author_profile: false
-  #     share: false
+  # _cats
+  - scope:
+      path: "_cats"
+      type: cats
+    values:
+      layout: single
+      author_profile: false
+      share: false
