@@ -36,3 +36,5 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+Does this let me change the home page?

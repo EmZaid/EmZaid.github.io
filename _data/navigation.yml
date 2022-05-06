@@ -20,15 +20,18 @@ foo:
 
 # main links
 main:
-  - title: "About"
+  - title: "about"
     url: /about/
-#  - title: "Sample Posts"
-#    url: /year-archive/
+  - title: "blog"
+    url: /blog_home/
   - title: "oscp notes"
     url: /oscp/oscp_notes/
+  - title: "coding"
+    url: /coding/coding_home/
+  - title: "cats"
+    url: /cats/cat_gallery/
 
-# oscp links
-
+# oscp sidebar
 oscp:
   - title: oscp notes
     children:
@@ -44,7 +47,48 @@ oscp:
     children:
       - title: "CLI cheat sheets"
         url: /oscp/reverse_shell/
-  
+
+# Coding Sidebar
+coding:
+  - title: coding
+    children:
+      - title: "coding Home"
+        url: /coding/coding_home/
+  - title: Python
+    children:
+      - title: "python"
+        url: /coding/python/basic_commands/
+   #   - title: "Powershell Scripts"
+   #     url: /oscp/ps_scripts/
+   #   - title: "secrets"
+  #      url: /oscp/secrets/
+ # - title: cheat sheets
+ #   children:
+  #    - title: "CLI cheat sheets"
+   #     url: /oscp/reverse_shell/
+
+# Python Side Bar
+python:
+  - title: Basics
+    children:
+      - title: "Basic Commands"
+        url: /coding/python/basic_commands/
+      - title: "Basic project Setup"
+        url: /coding/python/basic_python_project_setup/
+      - title:
+        url: /coding/python/
+      - title:
+        url: /coding/python/
+  # - title: python objects
+  #   children:
+  #     - title: "Classes"
+  #       url: /coding/python/python_objects/Classes/
+  #     - title: "Decorators"
+  #       url: /coding/python/python_objects/Decorators/
+  #     - title: "name_spaces"
+  #       url: /coding/python/python_objects/name_spaces/
+  #     - title: "meta classes"
+  #       url: /coding/python/python_objects/metaclasses
 
 # sidebar navigation list sample
 sidebar-sample:

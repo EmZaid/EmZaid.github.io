@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -21,12 +21,12 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Emilienne Zaiding"
 description              : "A personal blog and collection of tools on my pentesting journey"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://emzaid.gay" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "EmZaid/EmZaid.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "EmZaid" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   :  true #false (default)
 search_full_content      :  #true, #false (default)
 search_provider          :  lunr #(default), algolia, google
@@ -71,7 +71,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "q8SoKR6cG20VUSOEFISNPlm2gF4g0TJ26NUeTT0IHpU"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -94,57 +94,54 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-79VCCVPM9J"
+    anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Emilienne Zaiding"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A gay blog and collection of tools and guides around pentesting"
-  location         : "Somewhere"
+  name             : "Èmilienne Zaiding"
+  avatar           : "/assets/images/em_avatar.jpg"
+  bio              : "A collection of tools and guides around pentesting, and maybe some pictures of cats."
+  location         : 
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://emzaid.gay"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/emily_plus"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/EmZaid"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/emily_plus"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/EmZaid"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
@@ -284,6 +281,15 @@ collections:
   oscp:
     output: true
     permalink: /:collection/:path/
+  coding:
+    output: true
+    permalink: /:collection/:path/
+  python:
+    output: true
+    permalink: /coding/:collection/:path/
+  # cats:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
@@ -294,18 +300,19 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: True
       read_time: true
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: True
   # _docs
   - scope:
       path: ""
@@ -328,3 +335,21 @@ defaults:
       share: false
       sidebar:
         nav: "oscp"
+  # _coding
+  - scope:
+      path: "_coding"
+      type: coding
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      sidebar:
+        nav: "coding"
+  # # _cats
+  # - scope:
+  #     path: "_cats"
+  #     type: cats
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     share: false
