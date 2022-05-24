@@ -1,7 +1,7 @@
 ---
 title: "First Post"
 excerpt: ""
-date: 2022-05-06T17:05:09 #overrides date in name of post
+date: 2022-04-24 #overrides date in name of post
 tag:
 	- Blog
 	- Stego
