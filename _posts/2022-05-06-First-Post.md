@@ -9,8 +9,7 @@ tag:
 	- Polyglots
 category:
 author_profile: true
-#toc: true
-#toc_label: "Getting Started"
+author: Èmilienne Zaiding
 ---
 
 I ran into [stegosploit](https://stegosploit.info/) while working on a HTB box. It was definitely a rabbit hole but one that was quite fun. 
