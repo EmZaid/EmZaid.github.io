@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "EmZaid"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Emilienne Zaiding"
+name                     : "EmZaid"
 description              : "A personal blog and collection of tools on my pentesting journey"
 url                      : "https://emzaid.gay" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -102,8 +102,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Èmilienne Zaiding"
-  avatar           : "/assets/images/em_avatar.jpg"
+  name             : "EmZaid"
+  avatar           : "/assets/images/EmZaid_Profile.png"
   bio              : "A collection of tools and guides around pentesting, and maybe some pictures of cats."
   location         : 
   email            :
@@ -120,6 +120,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/EmZaid"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://infosec.exchange/@EmZaid"  
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
@@ -136,6 +139,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/EmZaid"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://infosec.exchange/@EmZaid"      
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
