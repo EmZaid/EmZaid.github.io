@@ -114,9 +114,9 @@ author:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://emzaid.gay"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/emily_plus"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/emily_plus"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/EmZaid"
@@ -130,9 +130,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/emily_plus"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/emily_plus"
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url:
