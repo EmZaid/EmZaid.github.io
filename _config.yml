@@ -296,7 +296,7 @@ collections:
   cats:
     output: true
     permalink: /:collection/:path/
-  recipies:
+  recipes:
     output: true
     permalink: /:collection/:path/
 
