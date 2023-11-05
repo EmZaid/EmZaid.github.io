@@ -9,10 +9,6 @@ gallery:
     image_path: /assets/images/recipies/moms_bread_pudding.jpeg
     alt: "moms_bread_pudding"
     title: "Moms Bread Pudding"
-- url: /assets/images/recipies/.DS_Store
-    image_path: /assets/images/recipies/.DS_Store
-    alt: ".DS_Store"
-    title: ".Ds Store"
 - url: /assets/images/recipies/buttercream_frosting.jpeg
     image_path: /assets/images/recipies/buttercream_frosting.jpeg
     alt: "buttercream_frosting"
