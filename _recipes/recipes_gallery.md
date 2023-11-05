@@ -65,6 +65,10 @@ gallery:
     image_path: /assets/images/recipes/buttermilik_biscuits.jpeg
     alt: "buttermilik_biscuits"
     title: "Buttermilik Biscuits"
+    - url: /assets/images/cats/Marcie.jpg
+    image_path: /assets/images/cats/Marcie.jpg
+    alt: "Marcie"
+    title: "Marcie"
 
   # - url: /assets/images/unsplash-gallery-image-4.jpg
   #   image_path: /assets/images/unsplash-gallery-image-4-th.jpg
