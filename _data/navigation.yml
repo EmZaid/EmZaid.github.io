@@ -30,6 +30,8 @@ main:
     url: /coding/coding_home/
   - title: "cats"
     url: /cats/cat_gallery/
+  - title: "recipes"
+    url: /recipes/recipes_gallery/
 
 # oscp sidebar
 oscp:

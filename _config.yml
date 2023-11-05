@@ -296,6 +296,9 @@ collections:
   cats:
     output: true
     permalink: /:collection/:path/
+  recipies:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -355,6 +358,14 @@ defaults:
   - scope:
       path: "_cats"
       type: cats
+    values:
+      layout: single
+      author_profile: false
+      share: false
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
     values:
       layout: single
       author_profile: false
